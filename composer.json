@@ -1,0 +1,21 @@
+{
+    "name": "kagga/mailchimp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Kagga",
+            "email": "johnkagga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "nztim/mailchimp": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kagga\\Mailchimp\\": "src/Kagga/Mailchimp"
+        }
+    },
+    "minimum-stability": "stable"
+}
